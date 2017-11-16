@@ -57,7 +57,9 @@ kanye.quote = function() {
 kanye.getAlbumObject = function(selectedAlbum) {
     if (selectedAlbum === undefined) {
         var albums = Object.keys(this.music);
-        return this.music[Math.floor(Math.random() * 6)];
+
+        return this.music[albums[Math.floor(Math.random() * 6)]];
+
     } else if (this.music[selectedAlbum] === undefined) {
         return 'not a valid album';
 
@@ -78,12 +80,13 @@ kanye.interrupt = function(text) {
 
 kanye.getAlbumTracks = function(selectedAlbum) {
     if (selectedAlbum === undefined) {
-        selectedAlbum = this.randomAlbumObject();
+        selectedAlbum = this.getAlbumObject();
     } else if (this.music[selectedAlbum] === undefined) {
         return 'not a valid album';
     }
+
     var tracks = selectedAlbum.trackList;
-    return tracks[Math.floor(Math.random() * tracks.length)];
+    return tracks;
 };
 
 
