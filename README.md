@@ -1,5 +1,5 @@
 # Yeezus
-###A monument to Kanye and also a reminder to have fun
+A monument to Kanye and also a reminder to have fun
 
 ## Installation
 
