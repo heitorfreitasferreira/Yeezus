@@ -76,7 +76,7 @@ kanye.interrupt = function(text) {
   var interruption = 'Imma let you finish, but ' + text;
 
   return interruption;
-}
+};
 
 kanye.getAlbumTracks = function(selectedAlbum) {
     if (selectedAlbum === undefined) {
@@ -85,7 +85,7 @@ kanye.getAlbumTracks = function(selectedAlbum) {
         return 'not a valid album';
     }
 
-    var tracks = selectedAlbum.trackList;
+    var tracks = this.music['My Beautiful Dark Twisted Fantasy'].trackList;
     return tracks;
 };
 

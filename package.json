@@ -1,6 +1,6 @@
 {
   "name": "yeezus",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "'Homage to Kanye'",
   "main": "index.js",
   "scripts": {
