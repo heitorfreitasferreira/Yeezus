@@ -66,6 +66,16 @@ kanye.getAlbumObject = function(selectedAlbum) {
     }
 };
 
+kanye.interrupt = function(text) {
+  if ( text === undefined ) {
+    text = 'Beyonce has the greatest album of all time';
+  }
+
+  var interruption = 'Imma let you finish, but ' + text;
+
+  return interruption;
+}
+
 kanye.getAlbumTracks = function(selectedAlbum) {
     if (selectedAlbum === undefined) {
         selectedAlbum = this.randomAlbumObject();
