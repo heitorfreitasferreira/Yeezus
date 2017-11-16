@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/abishakkodi/Yeezus.svg?branch=master)](https://travis-ci.org/abishakkodi/Yeezus)
 # Yeezus
 A monument to Kanye and also a reminder to have fun
 
