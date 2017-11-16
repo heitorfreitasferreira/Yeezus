@@ -1,17 +1,18 @@
 # Yeezus
-========
-A monument to Kanye's ego and also a reminder to have fun
+###A monument to Kanye and also a reminder to have fun
 
 ## Installation
 
-  `npm install @abishakkodi/yeezus`
+  `npm install yeezus --save`
 
 ## Usage
-    var kanye = require('@abishakkodi/yeezus');
-
+    var kanye = require('yeezus');
     kanye.interrupt();
 
+
   This should return - 'Imma let you finish, but Beyonce had the best album of all time' - Kanye's most quoted line.
+
+
 
 
 ## Tests
