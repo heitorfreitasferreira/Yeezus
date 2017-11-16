@@ -24,3 +24,11 @@ A monument to Kanye and also a reminder to have fun
 ## Tests
 
   `npm test`
+
+
+
+## Copyright
+
+Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted.
+
+Please don't sue me.

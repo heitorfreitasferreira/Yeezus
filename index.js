@@ -9,8 +9,6 @@ kanye.music = {
     'Late Registration': {
         albumName: 'Late Registration',
         trackList: ["Coming soon.."]
-
-
     },
 
     'Graduation': {
@@ -22,13 +20,17 @@ kanye.music = {
     "808's and Heartbreak": {
         albumName: "808's and Heartbreak",
         trackList: ["Coming soon.."]
-
     },
 
     'My Beautiful Dark Twisted Fantasy': {
 
         albumName: 'My Beautiful Dark Twisted Fantasy',
         trackList: ["Dark Fantasy", "Gorgeous", "Power", "All of the Lights (Interlude)", "All of the Lights", "Monster", "So Appalled", "Devil in a New Dress", "Runaway", "Hell of a Life", "Blame Game", "Lost in the World", "Who Will Survive in America"]
+    },
+
+    'Watch the Throne': {
+        albumName: 'Watch the Throne',
+        trackList: ["Coming soon.."]
 
     },
 
@@ -54,6 +56,18 @@ kanye.quote = function() {
     return 'Quotes to be added';
 };
 
+
+kanye.interrupt = function(text) {
+  if ( text === undefined ) {
+    text = 'Beyonce has the greatest album of all time';
+  }
+
+  var interruption = 'Imma let you finish, but ' + text;
+
+  return interruption;
+};
+
+
 kanye.getAlbumObject = function(selectedAlbum) {
     if (selectedAlbum === undefined) {
         var albums = Object.keys(this.music);
@@ -66,16 +80,6 @@ kanye.getAlbumObject = function(selectedAlbum) {
     } else {
         return this.music[selectedAlbum];
     }
-};
-
-kanye.interrupt = function(text) {
-  if ( text === undefined ) {
-    text = 'Beyonce has the greatest album of all time';
-  }
-
-  var interruption = 'Imma let you finish, but ' + text;
-
-  return interruption;
 };
 
 kanye.getAlbumTracks = function(selectedAlbum) {
