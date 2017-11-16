@@ -1,0 +1,23 @@
+{
+  "name": "yeezus",
+  "version": "0.1.0",
+  "description": "'Homage to Kanye'",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abishakkodi/Yeezus.git"
+  },
+  "author": "Abishak Kodi <abishak.kodi@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abishakkodi/Yeezus/issues"
+  },
+  "homepage": "https://github.com/abishakkodi/Yeezus#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
