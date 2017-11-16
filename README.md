@@ -9,9 +9,15 @@ A monument to Kanye and also a reminder to have fun
 ## Usage
     var kanye = require('yeezus');
     kanye.interrupt();
+    kanye.interrupt('California Burritos are the best burritos ever');
 
 
-  This should return - 'Imma let you finish, but Beyonce had the best album of all time' - Kanye's most quoted line.
+  
+  Kanye will interrupt with a phrase of your saying,  
+  'Imma let you finish, but California Burritos are the best burritos ever.'
+  
+  If no argument is supplied, it should return - 'Imma let you finish, but Beyonce had the best album of all time' - Kanye's most quoted line.
+  
 
     kanye.getAlbumObject();
     kanye.getAlbumObject('My Beautiful Dark Twisted Fantasy');
